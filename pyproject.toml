@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arch-logging"             # distribution name on pip
+version = "0.1.0"
+description = "Shared logging helper for hello-arch services"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["structlog>=24.1.0"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["arch_logging*"]

@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: arch-logging
+Version: 0.1.0
+Summary: Shared logging helper for hello-arch services
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: structlog>=24.1.0
+
+Shared logging helper for hello-arch services
